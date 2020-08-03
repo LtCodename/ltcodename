@@ -1,0 +1,26 @@
+.tab {
+    display: block;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 20px;
+    background: rgb(255 255 255 / .3);
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 200;
+    transition: .4s all;
+    text-transform: uppercase;
+    min-width: 165px;
+    text-align: center;
+}
+
+.tab:hover {
+    background: rgb(255 255 255 / .5);
+}
+
+.intro-wrapper {
+    margin-bottom: 20px;
+}
+
+.intro-text {
+    font-size: 35px;
+}

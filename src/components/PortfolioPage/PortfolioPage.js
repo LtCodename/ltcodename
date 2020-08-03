@@ -1,7 +1,5 @@
 import React from 'react';
 import './PortfolioPage.css';
-import NavigationPanel from '../NavigationPanel/NavigationPanel';
-import Footer from '../Footer/Footer';
 
 function PortfolioPage() {
   const content = (
@@ -9,12 +7,8 @@ function PortfolioPage() {
   );
 
   return (
-    <div className="column outer-wrapper">
-      <div className="column flex-one">
-        <NavigationPanel/>
-        {content}
-      </div>
-      <Footer/>
+    <div className="column outer-wrapper flex-one">
+      {content}
     </div>
   );
 }
