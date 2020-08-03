@@ -22,3 +22,57 @@ code {
 html {
   min-height: 100%;
 }
+
+/* Flex Blocks */
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.row-h {
+  justify-content: center;
+}
+
+.row-v {
+  align-items: center;
+}
+
+.row-between {
+  justify-content: space-between;
+}
+
+.row-right {
+  justify-content: flex-end;
+}
+
+.row-left {
+  justify-content: flex-start;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.column-h {
+  align-items: center;
+}
+
+.column-v {
+  justify-content: center;
+}
+
+.flex-one {
+  flex: 1;
+}
+
+.outer-wrapper {
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.content-wrapper {
+  padding: 20px;
+}
