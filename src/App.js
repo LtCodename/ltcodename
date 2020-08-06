@@ -17,10 +17,10 @@ function App() {
               transitionKey={location.pathname}
             >
               <Switch location={location}>
-                <Route exact path="/home" component={HomePage}/>
+                <Route exact path="/" component={HomePage}/>
                 <Route exact path="/portfolio" component={PortfolioPage}/>
                 <Route exact path="/contacts" component={ContactsPage}/>
-                <Redirect to="/home"/>
+                <Redirect to="/"/>
               </Switch>
             </PageTransition>
           );

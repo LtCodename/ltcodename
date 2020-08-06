@@ -14,7 +14,7 @@ function HomePage() {
             {'Portfolio'}
         </NavLink>
         <NavLink className="tab" to="/contacts">
-            {'Lets talk!'}
+            {'Contacts'}
         </NavLink>
       </div>
     </div>

@@ -76,3 +76,21 @@ html {
 .content-wrapper {
   padding: 20px;
 }
+
+.contact-icon{
+  height: 50px;
+  fill: #FFFFFF;
+  transition: all .4s;
+}
+
+.location-icon {
+  height: 25px;
+  fill: #FFFFFF;
+  transition: all .4s;
+}
+
+.arrow-icon {
+  height: 60px;
+  fill: #FFFFFF;
+  transition: all .4s;
+}

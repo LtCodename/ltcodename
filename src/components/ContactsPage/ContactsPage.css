@@ -1,0 +1,46 @@
+.contacts-row {
+    margin-top: 20px;
+}
+
+.contact-icon-wrapper {
+    transition: all .4s;
+    margin: 0 10px;
+}
+
+.contact-icon-wrapper:hover {
+    transform: scale(1.3);
+    display: block;
+}
+
+.location-icon-wrapper {
+    transition: all .4s;
+}
+
+.location-column {
+    margin-top: 20px;
+}
+
+.location-text {
+    text-align: center;
+    font-weight: 200;
+    height: fit-content;
+    margin: 0 10px;
+}
+
+.contacts-wrapper {
+    width: -webkit-fill-available;
+}
+
+.arrow-icon-wrapper {
+    transition: all .4s;
+}
+
+.arrow-icon-wrapper:hover {
+    transform: scale(1.1);
+    display: block;
+    cursor: pointer;
+}
+
+.void {
+    width: 62px;
+}
