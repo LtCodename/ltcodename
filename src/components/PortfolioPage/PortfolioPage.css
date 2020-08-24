@@ -1,7 +1,7 @@
 .skills-section {
     padding: 20px;
     background: rgb(255 255 255 / .3);
-    margin: 0 10px;
+    margin: 0 10px 20px 10px;
     min-width: 185px;
 }
 
@@ -16,7 +16,7 @@
 }
 
 .skills-row {
-    margin: 20px 0;
+    margin: 20px 0 0 0;
 }
 
 .contacts-wrapper {
@@ -64,7 +64,7 @@
 
 .project-pictures {
     width: 450px;
-    margin: 0 25px
+    margin: 10px 0;
 }
 
 .text-and-pics {
@@ -78,4 +78,17 @@
 
 .slider-wrapper {
     margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 1275px) {
+    .text-and-pics {
+        flex-wrap: wrap;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .project-pictures {
+        display: none;
+    }
 }

@@ -18,8 +18,7 @@ function ContactsPage() {
             <a href="https://twitter.com/LtCodename" rel="noopener noreferrer" target="_blank" className="contact-icon-wrapper">{TwitterIcon}</a>
             <a href="https://www.facebook.com/LtCodename/" rel="noopener noreferrer" target="_blank" className="contact-icon-wrapper">{FacebookIcon}</a>
           </div>
-          <div className="row row-v location-row location-column">
-            <div className="location-icon-wrapper row row-h"></div>
+          <div className="row row-v location-row location-column row-h">
             <span className="location-text">Sunnyvale, CA, US.</span>
             <span className="location-text">Pacific Daylight Time, GMT-7.</span>
           </div>

@@ -26,7 +26,7 @@ function PortfolioPage() {
         </div>
         <div className="column intro-wrapper column-h">
           <span className="intro-text">Things I know.</span>
-          <div className="row skills-row">
+          <div className="row skills-row row-h">
             <div className="skills-section column">
               <span className="skills-header">Languages</span>
               <span className="skill">JavaScript</span>
@@ -81,7 +81,7 @@ function PortfolioPage() {
                   <a href="https://trello.com/b/GT6AY0oi/game-keeper-roadmap" target="blank">{TrelloIcon}</a>
                 </span>
               </div>
-              <div className="row text-and-pics">
+              <div className="row text-and-pics row-h">
                 <div className="column">
                   <span className="portfolio-text">I am a gamer and I needed a way to track what games I've completed, what I wish to play later, what is an absolute garbage and what I want to try out with friends. Also I am a data freak so I needed to see my gaming history for previous years. There are some platforms for this purpose out there but I needed this system to be fully customizable and flex. So I've made one myself.</span>
                   <span className="portfolio-text">It's stable and usable but super raw design-wise and still lacking some features I've planned initially. It's in alpha state and in active development though and I'd appreciate all feedback I can get. Wanna help, propose features or just chat about what you are playing right now? Contact me!</span>
@@ -112,7 +112,7 @@ function PortfolioPage() {
                   <a href="https://grid.ltcodename.com/" target="blank">{LinkIcon}</a>
                 </span>
               </div>
-              <div className="row text-and-pics">
+              <div className="row text-and-pics row-h">
                 <div className="column">
                   <span className="portfolio-text">Formula 1 dedicated web site. Basically it holds season statistics and information about teams, drivers and season events. A lot of features are still to be implenented. I'm planning to grow something big and special from this seed.</span>
                   <div className="row row-v">
