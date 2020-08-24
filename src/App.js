@@ -8,7 +8,7 @@ import ContactsPage from './components/ContactsPage/ContactsPage';
 
 function App() {
   const content = (
-    <div className="column flex-one">
+    <div className="column flex-one page-transition-wrapper">
       <Route
         render={({ location }) => {
           return (

@@ -1,0 +1,81 @@
+.skills-section {
+    padding: 20px;
+    background: rgb(255 255 255 / .3);
+    margin: 0 10px;
+    min-width: 185px;
+}
+
+.skills-header {
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.skill {
+    margin-bottom: 5px;
+}
+
+.skills-row {
+    margin: 20px 0;
+}
+
+.contacts-wrapper {
+    flex-wrap: nowrap;
+}
+
+.project {
+    padding: 20px;
+    background: rgb(255 255 255 / .3);
+    flex-wrap: nowrap;
+    max-width: 1000px;
+    margin-bottom: 20px;
+}
+
+.projects-column {
+    margin-top: 20px;
+}
+
+.project-name {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.projects-icon {
+    fill: #FFFFFF;
+    height: 45px;
+}
+
+.tools-icon {
+    fill: #FFFFFF;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.projects-icon-wrapper {
+    transition: .4s all;
+    margin: 0 5px;
+}
+
+.projects-icon-wrapper:hover {
+    transform: scale(1.1);
+}
+
+.project-pictures {
+    width: 450px;
+    margin: 0 25px
+}
+
+.text-and-pics {
+    flex-wrap: nowrap;
+    margin-top: 10px;
+}
+
+.portfolio-text {
+    margin-bottom: 10px;
+}
+
+.slider-wrapper {
+    margin-bottom: 15px;
+}
