@@ -18,6 +18,8 @@ function PortfolioPage() {
     adaptiveHeight: true
   };
 
+  console.log(process.env.PUBLIC_URL + 'projects/gk-1.png')
+
   const content = (
     <div className="content-wrapper flex-one column column-v column-h">
       <div className="row row-between row-h contacts-wrapper">
@@ -132,39 +134,38 @@ function PortfolioPage() {
               </div>
             </div>
             {/* Project 3 */}
-            {/* <div className="project column">
-              <span className="project-name">Game Keeper</span>
+            <div className="project column">
+              <span className="project-name">ISETSOFT</span>
               <div className="row row-h">
-                <span className="projects-icon-wrapper">
+                {/* <span className="projects-icon-wrapper">
                   <a href="https://github.com/LtCodename/Game-Keeper" target="blank">{GithubIcon}</a>
-                </span>
+                </span> */}
                 <span className="projects-icon-wrapper">
-                  <a href="https://gamekeeper.ltcodename.com" target="blank">{LinkIcon}</a>
+                  <a href="http://isetsoft.com/" target="blank">{LinkIcon}</a>
                 </span>
-                <span className="projects-icon-wrapper">
+                {/* <span className="projects-icon-wrapper">
                   <a href="https://trello.com/b/GT6AY0oi/game-keeper-roadmap" target="blank">{TrelloIcon}</a>
-                </span>
+                </span> */}
               </div>
               <div className="row text-and-pics">
                 <div className="column">
-                  <span className="portfolio-text">I am a gamer and I needed a way to track what games I've completed, what I wish to play later, what is an absolute garbage and what I want to try out with friends. Also I am a data freak so I needed to see my gaming history for previous years. There are some platforms for this purpose out there but I needed this system to be fully customizable and flex. So I've made one myself.</span>
-                  <span className="portfolio-text">It's stable and usable but super raw design-wise and still lacking some features I've planned initially. It's in alpha state and in active development though and I'd appreciate all feedback I can get. Wanna help, propose features or just chat about what you are playing right now? Contact me!</span>
+                  <span className="portfolio-text">A small independent web development studio from Ukraine hired me to create a site for them. Seven pages, dynamic background, cool routes transitions and a badass slider! Work is still in progress, stay tuned.</span>
                   <div className="row row-v">
                     <span>{ToolsIcon}</span>
-                    <span>React, Redux, Firebase, RAWG API.</span>
+                    <span>React.</span>
                   </div>
                 </div>
                 <div className="column column-v">
                   <div className="project-pictures">
                       <Slider {...settings}>
-                        <img src={process.env.PUBLIC_URL + 'projects/gk-1.png'} alt="alt"/>
-                        <img src={process.env.PUBLIC_URL + 'projects/gk-1.png'} alt="alt"/>
-                        <img src={process.env.PUBLIC_URL + 'projects/gk-1.png'} alt="alt"/>
+                        <img src={process.env.PUBLIC_URL + 'projects/z-1.png'} alt="alt"/>
+                        <img src={process.env.PUBLIC_URL + 'projects/z-2.png'} alt="alt"/>
+                        <img src={process.env.PUBLIC_URL + 'projects/z-3.png'} alt="alt"/>
                       </Slider>
                     </div>
                 </div>
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
         <div className="void"></div>

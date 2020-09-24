@@ -19,8 +19,8 @@ function ContactsPage() {
             <a href="https://www.facebook.com/LtCodename/" rel="noopener noreferrer" target="_blank" className="contact-icon-wrapper">{FacebookIcon}</a>
           </div>
           <div className="row row-v location-row location-column row-h">
-            <span className="location-text">Sunnyvale, CA, US.</span>
-            <span className="location-text">Pacific Daylight Time, GMT-7.</span>
+            <span className="location-text">Kyiv, Ukraine.</span>
+            <span className="location-text">Eastern European Summer Time, GMT+3</span>
           </div>
         </div>
         <div className="void"></div>
