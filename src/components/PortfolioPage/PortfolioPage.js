@@ -18,13 +18,11 @@ function PortfolioPage() {
     adaptiveHeight: true
   };
 
-  console.log(process.env.PUBLIC_URL + 'projects/gk-1.png')
-
   const content = (
     <div className="content-wrapper flex-one column column-v column-h">
-      <div className="row row-between row-h contacts-wrapper">
+      <div className="column column-h contacts-wrapper">
         <div className="column column-v">
-          <NavLink to="/" className="arrow-icon-wrapper">{ArrowIcon}</NavLink>
+          <NavLink to="/" className="arrow-icon-wrapper arrow-portfolio">{ArrowIcon}</NavLink>
         </div>
         <div className="column intro-wrapper column-h">
           <span className="intro-text">Things I know.</span>
@@ -147,7 +145,7 @@ function PortfolioPage() {
                   <a href="https://trello.com/b/GT6AY0oi/game-keeper-roadmap" target="blank">{TrelloIcon}</a>
                 </span> */}
               </div>
-              <div className="row text-and-pics">
+              <div className="row text-and-pics row-h">
                 <div className="column">
                   <span className="portfolio-text">A small independent web development studio from Ukraine hired me to create a site for them. Seven pages, dynamic background, cool routes transitions and a badass slider! Work is still in progress, stay tuned.</span>
                   <div className="row row-v">

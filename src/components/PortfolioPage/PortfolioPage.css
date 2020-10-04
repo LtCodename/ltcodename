@@ -80,6 +80,10 @@
     margin-bottom: 15px;
 }
 
+.arrow-portfolio {
+    transform: rotate(90deg);
+}
+
 @media only screen and (max-width: 1275px) {
     .text-and-pics {
         flex-wrap: wrap;
@@ -90,5 +94,24 @@
 @media only screen and (max-width: 650px) {
     .project-pictures {
         display: none;
+    }
+}
+
+@media only screen and (max-width: 489px) {
+    .skills-section {
+        padding: 10px 0px;
+        background: rgb(255 255 255 / .3);
+        margin: 0 5px 10px 5px;
+        min-width: 160px;
+        text-align: center;
+    }
+
+    .project {
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    .projects-column {
+        margin-top: 10px;
     }
 }
