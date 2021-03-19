@@ -29,6 +29,7 @@
     flex-wrap: nowrap;
     max-width: 1000px;
     margin-bottom: 20px;
+    align-items: center;
 }
 
 .projects-column {
@@ -63,7 +64,7 @@
 }
 
 .project-pictures {
-    width: 450px;
+    width: 800px;
     margin: 10px 25px;
 }
 
@@ -74,6 +75,7 @@
 
 .portfolio-text {
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .slider-wrapper {
@@ -91,7 +93,13 @@
     }
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 990px) {
+    .project-pictures {
+        width: 600px;
+    }
+}
+
+@media only screen and (max-width: 790px) {
     .project-pictures {
         display: none;
     }

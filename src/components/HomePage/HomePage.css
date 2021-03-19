@@ -9,8 +9,9 @@
     font-weight: 200;
     transition: .4s all;
     text-transform: uppercase;
-    min-width: 165px;
+    min-width: 170px;
     text-align: center;
+    margin-bottom: 10px;
 }
 
 .tab:hover {

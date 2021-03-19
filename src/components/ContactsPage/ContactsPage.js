@@ -11,7 +11,7 @@ function ContactsPage() {
           <NavLink to="/" className="arrow-icon-wrapper">{ArrowIcon}</NavLink>
         </div>
         <div className="column intro-wrapper column-h">
-          <span className="intro-text">Here are come ways you can reach out to me.</span>
+          <span className="intro-text">Here are some ways you can reach out to me.</span>
           <span className="intro-text">Let's talk!</span>
           <div className="contacts-row row">
             <a href="mailto:chernenko.eu@gmail.com?subject='We would like to hire you!'" rel="noopener noreferrer" target="_blank" className="contact-icon-wrapper">{EmailIcon}</a>
