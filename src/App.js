@@ -16,7 +16,7 @@ function App() {
     />
   );
 
-  return <div>{content}</div>;
+  return <>{content}</>;
 }
 
 export default App;

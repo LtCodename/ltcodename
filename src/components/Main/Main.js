@@ -11,12 +11,13 @@ import {
   WorkInfo,
   LinksWrapper,
   IconWrapper,
+  FlexRow,
 } from "./styled";
 import { GithubIcon, LinkedinIcon } from "./../../icons";
 
 const Main = () => {
   return (
-    <MainWrapper height={"100vh"} justifyContent={"space-between"}>
+    <MainWrapper justifyContent={"space-between"}>
       <LinksWrapper
         width={"100%"}
         justifyContent={"center"}
@@ -33,10 +34,12 @@ const Main = () => {
       <ContentWrapper>
         <TitlesColumn alignItems={"flex-start"} width={"100%"}>
           <Title>Hey, I'm Yevhen</Title>
-          <Subtitle>{`Software engineer & front-end developer.`}</Subtitle>
+          <FlexRow width={"100%"}>
+            <Subtitle>{`Software engineer & front-end developer.`}</Subtitle>
+          </FlexRow>
         </TitlesColumn>
         <WorkRow
-          justifyContent={"space-between"}
+          justifyContent={"center"}
           width={"100%"}
           alignItems={"flex-start"}
         >

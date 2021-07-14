@@ -22,47 +22,45 @@ export const FlexColumn = styled.div`
 
 export const MainWrapper = styled(FlexColumn)`
   background: #dddddd;
-  padding: 30px;
+  padding: 15px;
+  min-height: 100vh;
 `;
 
 export const Title = styled.span`
   color: #125d98;
   font-size: 96px;
   font-weight: 900;
-  line-height: 96px;
+  text-align: center;
 `;
 
 export const Subtitle = styled.span`
   color: #125d98;
-  font-size: 24px;
-  font-weight: 400;
-  margin-top: 15px;
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+  background: #f5a962;
+  margin-top: 10px;
+  padding: 2px 8px 5px 8px;
 `;
 
 export const TitlesColumn = styled(FlexColumn)``;
 
 export const WorkRow = styled(FlexRow)`
-  margin-top: 10px;
+  flex-wrap: wrap;
 `;
 
 export const WorkInfoParagraph = styled.p`
   color: #125d98;
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 300;
   max-width: 500px;
   margin: 0;
+  text-align: center;
 `;
 
 export const WorkInfo = styled.span`
-  height: 100%;
-  background: rgb(245 169 98 / 90%);
-  padding: 5px 10px 10px 10px;
-  box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
   max-width: 400px;
-
-  :not(:last-child) {
-    margin-right: 20px;
-  }
+  margin: 10px;
 `;
 
 export const ContentWrapper = styled(FlexColumn)`
@@ -76,6 +74,7 @@ export const HightlightedWord = styled.a`
   text-decoration: none;
   color: #125d98;
   cursor: pointer;
+  border-bottom: 5px solid #f5a962;
 
   :visited {
     color: #125d98;
