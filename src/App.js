@@ -1,35 +1,22 @@
 import React from "react";
 import { Switch, Route, Redirect } from "react-router-dom";
-import { PageTransition } from "@steveeeie/react-page-transition";
-import "./App.css";
-import HomePage from "./components/HomePage/HomePage";
-import PortfolioPage from "./components/PortfolioPage/PortfolioPage";
-import ContactsPage from "./components/ContactsPage/ContactsPage";
+import Main from "./components/Main/Main";
 
 function App() {
   const content = (
-    <div className="column flex-one page-transition-wrapper">
-      <Route
-        render={({ location }) => {
-          return (
-            <PageTransition
-              preset="scaleDownFromRight"
-              transitionKey={location.pathname}
-            >
-              <Switch location={location}>
-                <Route exact path="/" component={HomePage} />
-                <Route exact path="/portfolio" component={PortfolioPage} />
-                <Route exact path="/contacts" component={ContactsPage} />
-                <Redirect to="/" />
-              </Switch>
-            </PageTransition>
-          );
-        }}
-      />
-    </div>
+    <Route
+      render={({ location }) => {
+        return (
+          <Switch location={location}>
+            <Route exact path="/" component={Main} />
+            <Redirect to="/" />
+          </Switch>
+        );
+      }}
+    />
   );
 
-  return <div className="column outer-wrapper">{content}</div>;
+  return <div>{content}</div>;
 }
 
 export default App;
