@@ -32,17 +32,13 @@ const Main = () => {
         </IconWrapper>
       </LinksWrapper>
       <ContentWrapper>
-        <TitlesColumn alignItems={"flex-start"} width={"100%"}>
+        <TitlesColumn alignItems={"center"} width={"100%"}>
           <Title>Hey, I'm Yevhen</Title>
           <FlexRow width={"100%"}>
             <Subtitle>{`Software engineer & front-end developer.`}</Subtitle>
           </FlexRow>
         </TitlesColumn>
-        <WorkRow
-          justifyContent={"center"}
-          width={"100%"}
-          alignItems={"flex-start"}
-        >
+        <WorkRow justifyContent={"center"} width={"100%"} alignItems={"center"}>
           <WorkInfo>
             <WorkInfoParagraph>
               {`Currently a front-end developer helping people develop and maintain a huge and complex NDA project at `}
