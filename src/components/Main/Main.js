@@ -41,11 +41,11 @@ const Main = () => {
         <WorkRow justifyContent={"center"} width={"100%"} alignItems={"center"}>
           <WorkInfo>
             <WorkInfoParagraph>
-              {`Currently a front-end developer helping people develop and maintain a huge and complex NDA project at `}
+              {`I am a React Developer at `}
               <HightlightedWord
-                href="https://genesisdevelop.com/"
+                href="https://www.globallogic.com/"
                 target={"blank"}
-              >{`Genesis Development`}</HightlightedWord>
+              >{`GlobalLogic`}</HightlightedWord>
               {`.`}
             </WorkInfoParagraph>
           </WorkInfo>
@@ -61,11 +61,16 @@ const Main = () => {
                 href="https://lambda.direct/"
                 target={"blank"}
               >{`Lambda Team`}</HightlightedWord>
-              {` and `}
+              {` , `}
               <HightlightedWord
                 href="https://jatapp.com/"
                 target={"blank"}
               >{`Jat App`}</HightlightedWord>
+              {` and `}
+              <HightlightedWord
+                href="https://genesisdevelop.com/"
+                target={"blank"}
+              >{`Genesis Development`}</HightlightedWord>
               {`.`}
             </WorkInfoParagraph>
           </WorkInfo>
