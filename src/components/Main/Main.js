@@ -61,7 +61,7 @@ const Main = () => {
                 href="https://lambda.direct/"
                 target={"blank"}
               >{`Lambda Team`}</HightlightedWord>
-              {` , `}
+              {`, `}
               <HightlightedWord
                 href="https://jatapp.com/"
                 target={"blank"}
