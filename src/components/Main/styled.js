@@ -29,7 +29,7 @@ export const MainWrapper = styled(FlexColumn)`
 export const Title = styled.span`
   color: #125d98;
   font-size: 96px;
-  line-height: 96px;
+  line-height: 110іpx;
   font-weight: 900;
   text-align: center;
 `;
